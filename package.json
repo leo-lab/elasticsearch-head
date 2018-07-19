@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "grunt server",
+    "dev": "grunt dev",
     "test": "grunt jasmine",
     "proxy": "node proxy/index.js"
   },

@@ -84,6 +84,7 @@
 				url: base_uri + path,
 				type: type,
 				data: query,
+				body: this.dataEl.val(),
 				success: this._responseWriter_handler,
 				error: this._responseError_handler
 			});

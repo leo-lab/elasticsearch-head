@@ -108,6 +108,7 @@ module.exports = function(grunt) {
 
 	// Default task(s).
 	grunt.registerTask('default', ['clean', 'concat', 'copy', 'jasmine']);
+	grunt.registerTask('default', ['concat', 'copy', 'jasmine', 'server']);
 	grunt.registerTask('server', ['connect:server']);
 	grunt.registerTask('dev', [ 'default', 'watch' ]);
 
